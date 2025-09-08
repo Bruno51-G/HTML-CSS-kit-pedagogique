@@ -1,0 +1,95 @@
+body{
+    display: grid;
+    grid-template-areas: 
+        "header header header"
+        "nav article article"
+        "nav footer footer";
+    grid-template-columns: 30em;
+    align-items: stretch;
+    gap: 10px;
+    height: 100vh;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+
+header{
+    grid-area: header;
+    display: grid;
+    grid-template-areas: "h1 aside";
+    grid-template-columns: 7fr 1fr;
+    grid-gap: 10px;
+    font-weight: bold;
+}
+
+h1{
+    grid-area: h1;
+    background-color: #BBCCFF;
+    margin: 0;
+    padding: 20px;
+}
+
+aside{
+    grid-area: aside;
+    background-color: #BBCCFF;
+    padding: 30px;
+    margin: 0;
+}
+
+nav{
+    grid-area: nav;
+    background-color: #BBCCFF;
+    padding: 20px;
+}
+
+.principal{
+    height: 33em;
+    padding-bottom: 3em;
+}
+
+article{
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    align-items: stretch;
+    gap: 10px;
+}
+
+section{
+    width: 38%;
+}
+
+article h2{
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+article section{
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ccc
+}
+
+main{
+    grid-area: article;
+    background-color: #BBCCFF;
+    padding: 20px;
+}
+
+footer{
+    grid-area: footer;
+    background-color: #BBCCFF;
+    padding: 20px;
+    font-weight: bold;
+}
+
+@media(max-width: 768px){
+    body{
+        grid-template-areas: 
+        "header"
+        "nav"
+        "article"
+        "footer";
+        grid-template-columns: 1fr;
+    }
+}

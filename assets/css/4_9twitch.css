@@ -1,0 +1,106 @@
+body{
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 70%;
+
+}
+
+h1{
+    color: #008CBA;
+}
+
+h1 span:first-child{
+    color: #000000;
+    background-color: #eee;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 30px;
+    font-size: x-small;
+}
+
+.clic1, .clic2, .clic3{
+    color: #eee;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.clic1{
+    background-color: #008CBA;
+    width: 150px;
+}
+
+.clic2{
+    background-color: #4CAF50;
+    width: 150px;
+}
+
+.clic3{
+    background-color: #555555;
+    width: 200px;
+}
+
+hr{
+    width: 100%;
+}
+
+div.follo span, div.vu span, div.visio span, div.spectateurs span{
+    background-color: #4CAF50;
+    color: #eee;
+    padding-right: 3px;
+    padding-left: 3px;
+}
+
+.ligne{
+    display: flex;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+.case {
+    flex-basis: 50%;
+    width: 50%;
+    border-spacing: 10px;
+}
+
+table{
+    border-top: 3px solid #808080;
+    border-left: 3px solid #808080;
+    border-right: 3px solid #000000;
+    border-bottom: 3px solid #000000;
+    border-spacing: 3px;
+    
+}
+
+th{
+    border: 1px solid #000000;
+    background-color: #d3d3d3;
+}
+
+td img + span{
+    color: #eee;
+    background-color: #008CBA;
+    padding-right: 3px;
+    padding-left: 3px;
+}
+
+td:nth-child(1), td:nth-child(2), td:nth-child(3){
+    border: 1px solid #000000;
+}
+
+td:nth-child(4){
+    width: 350px;
+}
+
+.follo, .vu, .visio, .spectateurs{
+    border: 1px solid #000000;
+}
+
+td p{
+    line-height: 0;
+}

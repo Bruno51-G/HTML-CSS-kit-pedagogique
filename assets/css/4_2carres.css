@@ -1,0 +1,172 @@
+body{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 550px;
+    margin-right: 550px;
+}
+
+.case{
+    height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+}
+
+#c3{
+    background-color: black;
+}
+
+#c4{
+    background-color: black;
+}
+
+#c6{
+    background-color: black;
+}
+
+#c7{
+    background-color: black;
+}
+
+
+#c11{
+    background-color: black;
+}
+
+#c12{
+    background-color: red;
+}
+
+#c13{
+    background-color: red;
+}
+
+#c14{
+    background-color: black;
+}
+
+#c15{
+    background-color: red;
+}
+
+#c16{
+    background-color: red;
+}
+
+#c17{
+    background-color: black;
+}
+
+
+#c19{
+    background-color: black;
+}
+
+#c20{
+    background-color: red;
+}
+
+#c22{
+    background-color: red;
+}
+
+#c23{
+    background-color: red;
+}
+
+#c24{
+    background-color: red;
+}
+
+#c25{
+    background-color: red;
+}
+
+#c26{
+    background-color: red;
+}
+
+#c27{
+    background-color: black;
+}
+
+
+#c28{
+    background-color: black;
+}
+
+#c29{
+    background-color: red;
+}
+
+#c30{
+    background-color: red;
+}
+
+#c31{
+    background-color: red;
+}
+
+#c32{
+    background-color: red;
+}
+
+#c33{
+    background-color: red;
+}
+
+#c34{
+    background-color: red;
+}
+
+#c35{
+    background-color: red;
+}
+
+#c36{
+    background-color: black;
+}
+
+
+#c47{
+    background-color: red;
+}
+
+
+#c50{
+    background-color: black;
+}
+
+#c51{
+    background-color: red;
+}
+
+#c52{
+    background-color: red;
+}
+
+#c53{
+    background-color: red;
+}
+
+#c54{
+    background-color: black;
+}
+
+
+#c60{
+    background-color: black;
+}
+
+#c61{
+    background-color: red;
+}
+
+#c62{
+    background-color: black;
+}
+
+
+#c70{
+    background-color: black;
+}

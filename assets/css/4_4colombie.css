@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+    margin: 0;
+}
+
+.drapeau{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    height: 100vh;
+}
+
+#d1{
+    background-color: #FCD116;
+}
+
+#d2{
+    background-color: #FCD116;
+}
+
+#d3{
+    background-color: #003893;
+}
+
+#d4{
+    background-color: #CE1126;
+}
+

@@ -1,0 +1,28 @@
+.coeur{
+    display: grid;
+    grid-template-areas: "blanc blanc blanc blanc blanc blanc noir noir blanc noir noir blanc blanc blanc blanc blanc blanc"
+                        "blanc blanc blanc blanc blanc noir rouge rouge noir rouge rouge noir blanc blanc blanc blanc blanc"
+                        "blanc blanc blanc blanc noir rouge blanc rouge rouge rouge rouge rouge noir blanc blanc blanc blanc"
+                        "blanc blanc blanc blanc noir rouge rouge rouge rouge rouge rouge rouge noir blanc blanc blanc blanc"
+                        "blanc blanc blanc blanc noir rouge rouge rouge rouge rouge rouge rouge noir blanc blanc blanc blanc"
+                        "blanc blanc blanc blanc blanc noir rouge rouge rouge rouge rouge noir blanc blanc blanc blanc blanc"
+                        "blanc blanc blanc blanc blanc blanc noir rouge rouge rouge noir blanc blanc blanc blanc blanc"
+                        "blanc blanc blanc blanc blanc blanc blanc noir rouge noir blanc blanc blanc blanc blanc blanc blanc"
+                        "blanc blanc blanc blanc blanc blanc blanc blanc noir blanc blanc blanc blanc blanc blanc blanc blanc";
+    height: 100vh;
+}
+
+#blanc{
+    grid-area: blanc;
+    background-color: white;
+}
+
+#noir{
+    grid-area: noir;
+    background-color: black;
+}
+
+#rouge{
+    grid-area: rouge;
+    background-color: red;
+}

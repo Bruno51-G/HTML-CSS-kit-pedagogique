@@ -1,0 +1,38 @@
+header{
+    font-family: Arial;
+    color: white;
+    text-align: center;
+    background-color: #E64B3C;
+    padding: 20px 0;
+}
+
+body{
+    background-color: #EBF0F0;
+}
+
+h3{
+   color: #E64B3C; 
+}
+
+.chatons{
+    display: flex;
+    font-family: Arial;
+    justify-content: center;
+    margin-top: 30px;
+    grid-gap: 20px;
+}
+
+.carte img{
+    width: 300px;
+    height: auto;
+}
+
+.texte{
+    width: 300px;
+    height: auto;
+    padding: 0px;
+}
+
+.carte{
+    background-color: white;
+}

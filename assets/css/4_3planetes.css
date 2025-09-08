@@ -1,0 +1,27 @@
+body{
+    background-image: url(/assets/img/minipage/planetes/css-16-bg.webp);
+    /* height: 100vh; */
+}
+
+.planetes{
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 300px;
+}
+
+#planete1 img{
+    width: 200px;
+    height: auto;
+}
+
+#planete2 img{
+    width: 250px;
+    height: auto;
+}
+
+#planete3 img{
+    width: 300px;
+    height: auto;
+}
